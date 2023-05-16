@@ -6,7 +6,7 @@ const printFizzBuzz = printFizz + printBuzz;
 
 const ulElement = document.querySelector("ul");
 
-for (i = 1; i <= 100; i++){
+for (let i = 1; i <= 100; i++){
     const liElement = document.createElement("li");
 
     if (i % 3 === 0 && i % 5 === 0){
