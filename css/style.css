@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+    margin-top: .7rem;
+}
+
+main *{
+    padding-bottom: .5rem;
+}
+
+ul{
+    list-style-type: none;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.fizzText{
+    color: red;
+}
+
+.buzzText{
+    color: green;
+}
+
+.fizzBuzzText{
+    color: navy;
+}
